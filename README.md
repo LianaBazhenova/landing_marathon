@@ -1,4 +1,4 @@
-# lending_marathon
+# landing_marathon
 
  > Проект "Заверстаю"
  

@@ -13,12 +13,12 @@
         <img class="main-nav__logo" src="img/logo.svg" alt="Логотип Авторских букетов в Санкт-Петербурге" width="" height="">
       </a>
       <ul class="main-nav__list">
-        <li class="main-nav__item">Каталог</li>
-        <li class="main-nav__item">Доставка и оплата</li>
-        <li class="main-nav__item">Отзывы</li>
-        <li class="main-nav__item">Спецпредложение</li>
-        <li class="main-nav__item">Контакты</li>
-        <li class="main-nav__item">Корзина</li>
+        <li class="main-nav__item"><a href="#">Каталог</a></li>
+        <li class="main-nav__item"><a href="#">Доставка и оплата</a></li>
+        <li class="main-nav__item"><a href="#">Отзывы</a></li>
+        <li class="main-nav__item"><a href="#">Спецпредложение</a></li>
+        <li class="main-nav__item"><a href="#">Контакты</a></li>
+        <li class="main-nav__item"><a href="#">Корзина</a></li>
       </ul>
     </nav>
   </header>
@@ -26,12 +26,89 @@
     <section class="intro intro__wrapper">
       <h1>Авторские букеты в Петербурге</h1>
       <p>Оригинальные свежие букеты с доставкой по всему городу</p>
-      <button class="intro__button">Смотреть каталог</button>
+      <button class="button">Смотреть каталог</button>
       <img src="img/img_1.jpg" alt="Фото букета тюльпанов" width="" height="">
       <img src="img/img_2.jpg" alt="Фото сборного букета" width="" height="">
-
+      <div class="advantages">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <img class="advantages__img" src="img/icon/car.svg" width="82" height="52" alt="Иконка грузовичка">
+            <h3 class="advantages__heading">Быстрая доставка</h3>
+            <p class="advantages__paragraph">Можем собрать букет и передать его в доставку всего за час.</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__img" src="img/icon/bouquet.svg" width="52" height="52" alt="Иконка букета">
+            <h3 class="advantages__heading">Всегда свежие цветы</h3>
+            <p class="advantages__paragraph">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
+          </li>
+          <li class="advantages__item">
+            <img class="advantages__img" src="img/icon/camera.svg" width="59" height="52" alt="Иконка фотоаппарата">
+            <h3 class="advantages__heading">Отправляем фото цветов</h3>
+            <p class="advantages__paragraph">Перед доставкой сделаем фотографию букета и отправим вам.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="popular-slider popular__wrapper">
+      <div class="popular-container">
+        <h2 class="heading">Популярные букеты</h2>
+        <div class="popular">
+          <h3 class="popular__heading">Букет &#171;Нежность&#187;</h3>
+          <p class="popular__paragraph">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+          <p class="popular__paragraph">30 × 40 см</p>
+          <p class="popular__price">3600 руб.</p>
+        </div>
+        <img src="img/flower1.png" width="387" height="438" alt="Букет Нежность">
+        <button class="button">Заказать</button>
+      </div>
+      <div class="popular-arrow">
+        <a class="popular-arrow__link popular-arrow__link--left" href="#"> </a>
+        <a class="popular-arrow__link popular-arrow__link--right" href="#"> </a>
+      </div>
+      <div class="choice-bouquet">
+        <ul class="choice-bouquet__list">
+          <li class="choice-bouquet__item">
+            <h2 class="choice-bouquet__heading">Свадебные букеты</h2>
+            <p class="choice-bouquet__paragraph">Букеты для невест</p>
+          </li>
+          <li class="choice-bouquet__item">
+            <h2 class="choice-bouquet__heading">Букеты с пионами</h2>
+            <p class="choice-bouquet__paragraph">Букеты с сезонными пионами</p>
+          </li>
+          <li class="choice-bouquet__item">
+            <h2 class="choice-bouquet__heading">Выбрать букет</h2>
+            <p class="choice-bouquet__paragraph">Букеты в ассортименте</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="discount">
+      <h2 class="discount__heading">Скидка 10% на первый заказ</h2>
+      <p class="discount__paragraph">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+    </section>
+    <section class="advantages advantages--steps">
+      <h2 class="heading"></h2>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h3 class="advantages__heading">Заказ</h3>
+          <p class="advantages__paragraph">Выбирите понравившейся букет из каталога и оформите заказ</p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__heading">Уточнение деталей</h3>
+          <p class="advantages__paragraph">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__heading">Оплата</h3>
+          <p class="advantages__paragraph">Оплатить заказ можно онлайн на сайте или при получении</p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__heading">Доставка</h3>
+          <p class="advantages__paragraph">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+        </li>
+      </ul>
 
     </section>
+    
 
   </main>
   <footer>

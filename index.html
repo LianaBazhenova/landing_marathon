@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Букеты в Санкт-Петербурге</title>
 </head>
 <body class="page-body">
   <header class="page-header">
@@ -24,9 +24,9 @@
   </header>
   <main class="page-main">
     <section class="intro intro-wrapper">
-      <h1>Авторские букеты в Петербурге</h1>
-      <p>Оригинальные свежие букеты с доставкой по всему городу</p>
-      <button class="button">Смотреть каталог</button>
+      <h1>Авторские букеты <span>в Петербурге</span></h1>
+      <p class="intro__heading">Оригинальные свежие букеты с доставкой по всему городу</p>
+      <a class="button">Смотреть каталог</a>
       <img src="img/img_1.jpg" alt="Фото букета тюльпанов" width="386" height="404">
       <img src="img/img_2.jpg" alt="Фото сборного букета" width="387" height="420">
       <div class="advantages">
@@ -59,11 +59,11 @@
           <p class="popular__price">3600 руб.</p>
         </div>
         <img src="img/flower1.png" width="387" height="438" alt="Букет Нежность">
-        <button class="button">Заказать</button>
+        <button class="button" type="button">Заказать</button>
       </div>
       <div class="popular-arrow">
-        <a class="popular-arrow__link popular-arrow__link--left" href="#"> </a>
-        <a class="popular-arrow__link popular-arrow__link--right" href="#"> </a>
+        <button class="popular-arrow__link popular-arrow__link--left" href="#"></button>
+        <button class="popular-arrow__link popular-arrow__link--right" href="#"></button>
       </div>
       <div class="choice-bouquet">
         <ul class="choice-bouquet__list">
@@ -85,6 +85,7 @@
     <section class="discount">
       <h2 class="discount__heading">Скидка 10% на первый заказ</h2>
       <p class="discount__paragraph">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+      <img src="img/bouquet_ discount.jpg" width="590" height="391" alt=" Фото букета пионовидных роз">
     </section>
     <section class="advantages advantages--steps">
       <h2 class="heading">4 шага к идеальному букету</h2>
@@ -129,6 +130,11 @@
           </li>
         </ul>
       </div>
+      <div class="news__bouquets">
+        <img src="img/bouquet_news_1.jpg" width="285" height="220" alt="Фото букета с необычными розами зеленоватого цвета">
+        <img src="img/bouquet_ news_2.jpg" width="285" height="220" alt="Фото букета с розовыми розами">
+        <img src="img/bouquet_ news_3.jpg" width="387" height="460" alt="Букет с гвоздиками">
+      </div>
     </section>
     <section class="reviews">
       <h2 class="reviews__heading">Отзывы</h2>
@@ -147,24 +153,26 @@
         </li>
       </ul>
     </section>
-    <section class="map">
+    <section class="contacts">
       <img src="img/map.png" alt="Мы находимся по адресу г. Санкт-Петербург, ул. Большая Конюшенная, 19">
-      <div class="map__wrapper">
-        <h2 class="map__heading">Мы ждем вас</h2>
-        <ul class="map__list">
-          <li class="map__item">
+      <div class="contacts__wrapper">
+        <h2 class="contacts__heading">Мы ждем вас</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
             <p>Приходите к нам:</p>
             <p>Санкт-Петербург, ул. Большая Конюшенная, 19</p>
           </li>
-          <li class="map__item">
+          <li class="contacts__item">
             <p>Режим работы:</p>
             <p>Пн-Вск, с 9-00 до 20-00</p>
           </li>
-          <li class="map__item">
+          <li class="contacts__item">
             <p>Позвоните нам:</p>
-            <p>+ 7 (812) 983-47-19</p>
+            <p class="contacts__phone">
+              <a class="contacts__link" href="tel:78129834719">+ 7 (812) 983-47-19</a>
+            </p>
           </li>
-          <li class="map__item">
+          <li class="contacts__item">
             <p>Напишите нам:</p>
             <p>info@botanika.ru</p>
           </li>

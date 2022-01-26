@@ -270,7 +270,7 @@
 
 .choice-bouquet__list {
   padding: 0;
-  margin: 73px 0;
+  margin: 75px 0;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -279,7 +279,6 @@
 
 .choice-bouquet__item {
   position: relative;
-  /* z-index: 1; */
   background-color: rgba(174, 124, 120, 0.6);
   padding-bottom: 374px;
   border-radius: 10px;
@@ -292,7 +291,6 @@
 
 .choice-bouquet__heading {
   position: inherit;
-  /* z-index: 2; */
   top: 183px;
   text-align: center;
   color: #FFFFFF;
@@ -304,11 +302,108 @@
 }
 
 .choice-bouquet__paragraph {
-  
-  /* z-index: 2; */
   margin: 0;
   position: inherit;
   color: #FFFFFF;
   top: 190px;
   text-align: center;
 }
+
+/* discount */
+
+.discount {
+  background: #AE7C78;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 80px;
+}
+
+.discount__container {
+  padding: 40px 102px 0;
+}
+
+.discount__heading {
+  margin: 0 0 24px;
+  padding: 0;
+  font-size: 44px;
+  line-height: 59px;
+  font-family: "Playfair Display", Arial, sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.discount__paragraph {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 29px;  
+  color: #FFFFFF;
+}
+
+/* advantages-steps */
+
+.advantages-steps__list {
+  padding: 0;
+  margin: 0;
+}
+
+.advantages-steps {
+  margin-bottom: 80px;
+}
+
+.advantages-steps__list-heading{
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  font-family: "Playfair Display", Arial, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 0 36px;
+}
+
+.advantages-steps__item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 8px;
+}
+
+.advantages-steps__item:nth-child(1) .advantages-steps__heading { 
+  margin: -13px;
+}
+
+.advantages-steps__item:nth-child(3) .advantages-steps__heading { 
+  margin-top: -10px;
+}
+
+.advantages-steps__item:nth-child(3) .advantages-steps__paragraph  {
+  margin-top: -16px;
+}
+
+.advantages-steps__image {
+  margin: 0 auto;
+}
+
+.advantages-steps__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.advantages-steps__heading {
+  font-weight: 500;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.advantages-steps__paragraph {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
